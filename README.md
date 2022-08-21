@@ -46,8 +46,7 @@ A Dockerfile is a text document that contains all the commands a user could call
   docker compose down
   ```
   
-  
-  ##source
+## Source
   [Docker](https://docs.docker.com/reference/)
   [Docker Compose](https://docs.docker.com/get-started/08_using_compose/#:~:text=Docker%20Compose%20is%20a%20tool,or%20tear%20it%20all%20down.)
   
