@@ -21,8 +21,11 @@ Registry merupakan tempat penyimpanan Image yang dapat berupa penyimpanan Publik
 ### Create dockerfile
 A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image
 ### Create docker Image
+  docker build [OPTIONS] PATH | URL | -
+  ```
   docker build -t <nama image> .
   docker build -t <registry>/<nama image>:<version> .
+  ```
   ```
   docker build -t dedewahyuh/testimage:1.0 .
   ```  
