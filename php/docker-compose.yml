@@ -9,10 +9,8 @@ services:
             - ./logs:/var/log/nginx
             - /var/run/docker.sock:/docker.sock
         ports:
-            - "80:80"
+            - "81:80"
             - "443:443"
-            - "5060:5060"
-            - "5433:5433"
         working_dir: /var/www/html
         container_name: nginx
         links:
@@ -24,6 +22,5 @@ services:
             - ./www:/var/www/html/
             - /etc/localtime:/etc/localtime
             - ./config/php/custom.ini:/usr/local/etc/php/conf.d/custom.ini
-            - ./config/php/opcache.ini:/usr/local/etc/php/conf.d/opcache.ini
         working_dir: /var/www/html
         container_name: app
